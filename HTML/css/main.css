@@ -6,15 +6,18 @@ Typography
 p {
   font-size: 14px;
   line-height: 22.4px;
-  color: #6c7279; }
+  color: #6c7279;
+  }
 
 h1 {
-  font-size: 65px;
-  color: #2d3033; }
+  font-size: 55px;
+  color: #2d3033; 
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
 
 h2 {
   font-size: 40px;
-  color: #2d3033; }
+  color: #2d3033;}
 
 h3 {
   font-size: 28px;
@@ -260,7 +263,7 @@ ul li {
 	$Banner
 ========================================================================== */
 .banner {
-  background-image: url(../images/banner.jpg);
+  background-image: url(../images/pexels-photo-271699.jpeg);
   background-position: center top;
   background-repeat: no-repeat;
   -moz-background-size: cover;
@@ -825,3 +828,9 @@ ul li {
 
 .icon-dribbble:before {
   content: "\e063"; }
+  .inicio {
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size: 14px;
+  line-height: 22.4px;
+  color: #6c7279;
+  }
